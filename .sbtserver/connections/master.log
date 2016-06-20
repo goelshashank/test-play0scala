@@ -1,0 +1,13 @@
+New log file opened at Mon Jun 20 17:04:03 IST 2016 by 4050@sunny-Lenovo-E40-80
+Taking next connection to: 37019
+New client attempting to connect on port: 43924-37019
+  Address = /127.0.1.1:37019
+This client on port 43924 has uuid aad7ccda-1ccf-4d07-9837-587baec4870e configName play-fork-run humanReadableName Play Fork Run protocolVersion 1 featureTags Vector()
+Connected Clients: play-fork-run-aad7ccda-1ccf-4d07-9837-587baec4870e
+Taking next connection to: 37019
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 37019
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 37019
