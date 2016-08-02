@@ -11,11 +11,11 @@ import scala.concurrent.Future
  * application starts and stops. It starts a timer when the
  * application starts. When the application stops it prints out how
  * long the application was running for.
-
+  
  */
 @Singleton
 class ApplicationTimer @Inject() (clock: Clock, appLifecycle: ApplicationLifecycle) {
- 
+
   // This code is called when the application starts.
   private val start: Instant = clock.instant
   Logger.info(s"ApplicationTimer demo: Starting application at $start.")
