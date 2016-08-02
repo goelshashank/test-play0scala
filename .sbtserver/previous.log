@@ -1,4 +1,5 @@
-New log file opened at Mon Jun 20 17:01:31 IST 2016 by 3721@sunny-Lenovo-E40-80
+New log file opened at Mon Jun 20 17:13:52 IST 2016 by 4937@sunny-Lenovo-E40-80
+== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.1->org.scala-lang#scala-library;2.11.0 [compile->compile(*)]
 == resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.1->org.scala-lang#scala-library;2.11.7 [compile->compile(*)]
 == resolving dependencies com.typesafe.play#twirl-api_2.11;1.1.1->org.scala-lang#scala-library;2.11.6 [runtime->runtime(*)]
 == resolving dependencies com.typesafe.play#twirl-api_2.11;1.1.1->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)]
@@ -3518,7 +3519,7 @@ all callers are evicted for io.netty#netty-codec;4.0.34.Final: evicting too
 	[NOT REQUIRED] com.typesafe.akka#akka-actor_2.11;2.3.8!akka-actor_2.11.jar
 	[NOT REQUIRED] com.typesafe.akka#akka-testkit_2.11;2.3.8!akka-testkit_2.11.jar
 	[NOT REQUIRED] com.typesafe#config;1.2.1!config.jar(bundle)
-:: resolution report :: resolve 5177ms :: artifacts dl 134ms
+:: resolution report :: resolve 6233ms :: artifacts dl 220ms
 	report for test-play0scala#test-play0scala_2.11;1.0-SNAPSHOT compile produced in /home/sunny/Downloads/activator-1.3.10-minimal/bin/test-play0scala/target/resolution-cache/reports/test-play0scala-test-play0scala_2.11-compile.xml
 	report for test-play0scala#test-play0scala_2.11;1.0-SNAPSHOT runtime produced in /home/sunny/Downloads/activator-1.3.10-minimal/bin/test-play0scala/target/resolution-cache/reports/test-play0scala-test-play0scala_2.11-runtime.xml
 	report for test-play0scala#test-play0scala_2.11;1.0-SNAPSHOT test produced in /home/sunny/Downloads/activator-1.3.10-minimal/bin/test-play0scala/target/resolution-cache/reports/test-play0scala-test-play0scala_2.11-test.xml
@@ -3533,213 +3534,16 @@ all callers are evicted for io.netty#netty-codec;4.0.34.Final: evicting too
 	report for test-play0scala#test-play0scala_2.11;1.0-SNAPSHOT pom produced in /home/sunny/Downloads/activator-1.3.10-minimal/bin/test-play0scala/target/resolution-cache/reports/test-play0scala-test-play0scala_2.11-pom.xml
 	report for test-play0scala#test-play0scala_2.11;1.0-SNAPSHOT scala-tool produced in /home/sunny/Downloads/activator-1.3.10-minimal/bin/test-play0scala/target/resolution-cache/reports/test-play0scala-test-play0scala_2.11-scala-tool.xml
 	report for test-play0scala#test-play0scala_2.11;1.0-SNAPSHOT fork-run produced in /home/sunny/Downloads/activator-1.3.10-minimal/bin/test-play0scala/target/resolution-cache/reports/test-play0scala-test-play0scala_2.11-fork-run.xml
-	resolve done (5177ms resolve - 134ms download)
+	resolve done (6233ms resolve - 220ms download)
 Read from stdout: Done updating.
 Done updating.
-Total time: 6 s, completed 20 Jun, 2016 5:01:33 PM
+Total time: 8 s, completed 20 Jun, 2016 5:13:55 PM
 > server-post-command-cleanup
 > server-handle-next-server-request
 > root/playForkNotifyStart http://localhost:8880
 Evaluating tasks: *:playForkNotifyStart
-Running task... Cancel: sbt.server.ServerTaskCancellation@5e8e6592, check cycles: false
-Total time: 0 s, completed 20 Jun, 2016 5:01:37 PM
-> server-post-command-cleanup
-> server-handle-next-server-request
-> {file:/home/sunny/Downloads/activator-1.3.10-minimal/bin/test-play0scala/}root/*:playForkReload
-Evaluating tasks: *:playForkReload
-Running task... Cancel: sbt.server.ServerTaskCancellation@20ab2508, check cycles: false
-SLF4J: The following set of substitute loggers may have been accessed
-SLF4J: during the initialization phase. Logging calls during this
-SLF4J: phase were not honored. However, subsequent logging calls to these
-SLF4J: loggers will work as normally expected.
-SLF4J: See also http://www.slf4j.org/codes.html#substituteLogger
-SLF4J: org.webjars.WebJarExtractor
-
-Initial source changes: 
-	removed:Set()
-	added: Set(/home/sunny/Downloads/activator-1.3.10-minimal/bin/test-play0scala/target/scala-2.11/twirl/main/views/html/main.template.scala, /home/sunny/Downloads/activator-1.3.10-minimal/bin/test-play0scala/app/controllers/TestBean.java, /home/sunny/Downloads/activator-1.3.10-minimal/bin/test-play0scala/target/scala-2.11/routes/main/router/RoutesPrefix.scala, /home/sunny/Downloads/activator-1.3.10-minimal/bin/test-play0scala/app/Module.scala, /home/sunny/Downloads/activator-1.3.10-minimal/bin/test-play0scala/app/Filters.scala, /home/sunny/Downloads/activator-1.3.10-minimal/bin/test-play0scala/app/controllers/CountController.scala, /home/sunny/Downloads/activator-1.3.10-minimal/bin/test-play0scala/app/controllers/TestBean2.java, /home/sunny/Downloads/activator-1.3.10-minimal/bin/test-play0scala/target/scala-2.11/routes/main/controllers/routes.java, /home/sunny/Downloads/activator-1.3.10-minimal/bin/test-play0scala/app/services/ApplicationTimer.scala, /home/sunny/Downloads/activator-1.3.10-minimal/bin/test-play0scala/app/services/Counter.scala, /home/sunny/Downloads/activator-1.3.10-minimal/bin/test-play0scala/target/scala-2.11/routes/main/router/Routes.scala, /home/sunny/Downloads/activator-1.3.10-minimal/bin/test-play0scala/target/scala-2.11/routes/main/controllers/ReverseRoutes.scala, /home/sunny/Downloads/activator-1.3.10-minimal/bin/test-play0scala/target/scala-2.11/routes/main/controllers/javascript/JavaScriptReverseRoutes.scala, /home/sunny/Downloads/activator-1.3.10-minimal/bin/test-play0scala/target/scala-2.11/twirl/main/views/html/index.template.scala, /home/sunny/Downloads/activator-1.3.10-minimal/bin/test-play0scala/app/controllers/AsyncController.scala, /home/sunny/Downloads/activator-1.3.10-minimal/bin/test-play0scala/app/filters/ExampleFilter.scala, /home/sunny/Downloads/activator-1.3.10-minimal/bin/test-play0scala/app/controllers/HomeController.scala)
-	modified: Set()
-Removed products: Set()
-External API changes: API Changes: Set()
-Modified binary dependencies: Set()
-Initial directly invalidated sources: Set(/home/sunny/Downloads/activator-1.3.10-minimal/bin/test-play0scala/target/scala-2.11/twirl/main/views/html/main.template.scala, /home/sunny/Downloads/activator-1.3.10-minimal/bin/test-play0scala/app/controllers/TestBean.java, /home/sunny/Downloads/activator-1.3.10-minimal/bin/test-play0scala/target/scala-2.11/routes/main/router/RoutesPrefix.scala, /home/sunny/Downloads/activator-1.3.10-minimal/bin/test-play0scala/app/Module.scala, /home/sunny/Downloads/activator-1.3.10-minimal/bin/test-play0scala/app/Filters.scala, /home/sunny/Downloads/activator-1.3.10-minimal/bin/test-play0scala/app/controllers/CountController.scala, /home/sunny/Downloads/activator-1.3.10-minimal/bin/test-play0scala/app/controllers/TestBean2.java, /home/sunny/Downloads/activator-1.3.10-minimal/bin/test-play0scala/target/scala-2.11/routes/main/controllers/routes.java, /home/sunny/Downloads/activator-1.3.10-minimal/bin/test-play0scala/app/services/ApplicationTimer.scala, /home/sunny/Downloads/activator-1.3.10-minimal/bin/test-play0scala/app/services/Counter.scala, /home/sunny/Downloads/activator-1.3.10-minimal/bin/test-play0scala/target/scala-2.11/routes/main/router/Routes.scala, /home/sunny/Downloads/activator-1.3.10-minimal/bin/test-play0scala/target/scala-2.11/routes/main/controllers/ReverseRoutes.scala, /home/sunny/Downloads/activator-1.3.10-minimal/bin/test-play0scala/target/scala-2.11/routes/main/controllers/javascript/JavaScriptReverseRoutes.scala, /home/sunny/Downloads/activator-1.3.10-minimal/bin/test-play0scala/target/scala-2.11/twirl/main/views/html/index.template.scala, /home/sunny/Downloads/activator-1.3.10-minimal/bin/test-play0scala/app/controllers/AsyncController.scala, /home/sunny/Downloads/activator-1.3.10-minimal/bin/test-play0scala/app/filters/ExampleFilter.scala, /home/sunny/Downloads/activator-1.3.10-minimal/bin/test-play0scala/app/controllers/HomeController.scala)
-
-Sources indirectly invalidated by:
-	product: Set()
-	binary dep: Set()
-	external source: Set()
-All initially invalidated sources: Set(/home/sunny/Downloads/activator-1.3.10-minimal/bin/test-play0scala/target/scala-2.11/twirl/main/views/html/main.template.scala, /home/sunny/Downloads/activator-1.3.10-minimal/bin/test-play0scala/app/controllers/TestBean.java, /home/sunny/Downloads/activator-1.3.10-minimal/bin/test-play0scala/target/scala-2.11/routes/main/router/RoutesPrefix.scala, /home/sunny/Downloads/activator-1.3.10-minimal/bin/test-play0scala/app/Module.scala, /home/sunny/Downloads/activator-1.3.10-minimal/bin/test-play0scala/app/Filters.scala, /home/sunny/Downloads/activator-1.3.10-minimal/bin/test-play0scala/app/controllers/CountController.scala, /home/sunny/Downloads/activator-1.3.10-minimal/bin/test-play0scala/app/controllers/TestBean2.java, /home/sunny/Downloads/activator-1.3.10-minimal/bin/test-play0scala/target/scala-2.11/routes/main/controllers/routes.java, /home/sunny/Downloads/activator-1.3.10-minimal/bin/test-play0scala/app/services/ApplicationTimer.scala, /home/sunny/Downloads/activator-1.3.10-minimal/bin/test-play0scala/app/services/Counter.scala, /home/sunny/Downloads/activator-1.3.10-minimal/bin/test-play0scala/target/scala-2.11/routes/main/router/Routes.scala, /home/sunny/Downloads/activator-1.3.10-minimal/bin/test-play0scala/target/scala-2.11/routes/main/controllers/ReverseRoutes.scala, /home/sunny/Downloads/activator-1.3.10-minimal/bin/test-play0scala/target/scala-2.11/routes/main/controllers/javascript/JavaScriptReverseRoutes.scala, /home/sunny/Downloads/activator-1.3.10-minimal/bin/test-play0scala/target/scala-2.11/twirl/main/views/html/index.template.scala, /home/sunny/Downloads/activator-1.3.10-minimal/bin/test-play0scala/app/controllers/AsyncController.scala, /home/sunny/Downloads/activator-1.3.10-minimal/bin/test-play0scala/app/filters/ExampleFilter.scala, /home/sunny/Downloads/activator-1.3.10-minimal/bin/test-play0scala/app/controllers/HomeController.scala)
-
-Recompiling all 17 sources: invalidated sources (17) exceeded 50.0% of all sources
-Read from stdout: Compiling 14 Scala sources and 3 Java sources to /home/sunny/Downloads/activator-1.3.10-minimal/bin/test-play0scala/target/scala-2.11/classes...
-Compiling 14 Scala sources and 3 Java sources to /home/sunny/Downloads/activator-1.3.10-minimal/bin/test-play0scala/target/scala-2.11/classes...
-Getting compiler-interface from component compiler for Scala 2.11.7
-Other repositories:
-Default repositories:
-Getting compiler-interface from component compiler for Scala 2.11.7
-Other repositories:
-Default repositories:
-Running cached compiler 6f98df7a, interfacing (CompilerInterface) with Scala compiler version 2.11.7
-Calling Scala compiler with arguments  (CompilerInterface):
-	-deprecation
-	-unchecked
-	-encoding
-	utf8
-	-bootclasspath
-	/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jfr.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/classes:/home/sunny/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.7.jar
-	-classpath
-	/home/sunny/Downloads/activator-1.3.10-minimal/bin/test-play0scala/target/scala-2.11/classes:/home/sunny/.ivy2/cache/com.typesafe.play/twirl-api_2.11/jars/twirl-api_2.11-1.1.1.jar:/home/sunny/.ivy2/cache/org.apache.commons/commons-lang3/jars/commons-lang3-3.4.jar:/home/sunny/.ivy2/cache/org.scala-lang.modules/scala-xml_2.11/bundles/scala-xml_2.11-1.0.1.jar:/home/sunny/.ivy2/cache/com.typesafe.play/play-server_2.11/jars/play-server_2.11-2.5.3.jar:/home/sunny/.ivy2/cache/com.typesafe.play/play_2.11/jars/play_2.11-2.5.3.jar:/home/sunny/.ivy2/cache/com.typesafe.play/build-link/jars/build-link-2.5.3.jar:/home/sunny/.ivy2/cache/com.typesafe.play/play-exceptions/jars/play-exceptions-2.5.3.jar:/home/sunny/.ivy2/cache/com.typesafe.play/play-iteratees_2.11/jars/play-iteratees_2.11-2.5.3.jar:/home/sunny/.ivy2/cache/org.scala-stm/scala-stm_2.11/jars/scala-stm_2.11-0.7.jar:/home/sunny/.ivy2/cache/com.typesafe/config/bundles/config-1.3.0.jar:/home/sunny/.ivy2/cache/com.typesafe.play/play-json_2.11/jars/play-json_2.11-2.5.3.jar:/home/sunny/.ivy2/cache/com.typesafe.play/play-functional_2.11/jars/play-functional_2.11-2.5.3.jar:/home/sunny/.ivy2/cache/com.typesafe.play/play-datacommons_2.11/jars/play-datacommons_2.11-2.5.3.jar:/home/sunny/.ivy2/cache/joda-time/joda-time/jars/joda-time-2.9.2.jar:/home/sunny/.ivy2/cache/org.joda/joda-convert/jars/joda-convert-1.8.1.jar:/home/sunny/.ivy2/cache/org.scala-lang/scala-reflect/jars/scala-reflect-2.11.7.jar:/home/sunny/.ivy2/cache/com.fasterxml.jackson.core/jackson-core/bundles/jackson-core-2.7.1.jar:/home/sunny/.ivy2/cache/com.fasterxml.jackson.core/jackson-annotations/bundles/jackson-annotations-2.7.1.jar:/home/sunny/.ivy2/cache/com.fasterxml.jackson.core/jackson-databind/bundles/jackson-databind-2.7.1.jar:/home/sunny/.ivy2/cache/com.fasterxml.jackson.datatype/jackson-datatype-jdk8/bundles/jackson-datatype-jdk8-2.7.1.jar:/home/sunny/.ivy2/cache/com.fasterxml.jackson.datatype/jackson-datatype-jsr310/bundles/jackson-datatype-jsr310-2.7.1.jar:/home/sunny/.ivy2/cache/com.typesafe.play/play-netty-utils/jars/play-netty-utils-2.5.3.jar:/home/sunny/.ivy2/cache/org.slf4j/jul-to-slf4j/jars/jul-to-slf4j-1.7.16.jar:/home/sunny/.ivy2/cache/org.slf4j/jcl-over-slf4j/jars/jcl-over-slf4j-1.7.16.jar:/home/sunny/.ivy2/cache/com.typesafe.play/play-streams_2.11/jars/play-streams_2.11-2.5.3.jar:/home/sunny/.ivy2/cache/org.reactivestreams/reactive-streams/jars/reactive-streams-1.0.0.jar:/home/sunny/.ivy2/cache/com.typesafe.akka/akka-stream_2.11/jars/akka-stream_2.11-2.4.4.jar:/home/sunny/.ivy2/cache/com.typesafe.akka/akka-actor_2.11/jars/akka-actor_2.11-2.4.4.jar:/home/sunny/.ivy2/cache/org.scala-lang.modules/scala-java8-compat_2.11/bundles/scala-java8-compat_2.11-0.7.0.jar:/home/sunny/.ivy2/cache/com.typesafe/ssl-config-akka_2.11/bundles/ssl-config-akka_2.11-0.2.1.jar:/home/sunny/.ivy2/cache/com.typesafe/ssl-config-core_2.11/bundles/ssl-config-core_2.11-0.2.1.jar:/home/sunny/.ivy2/cache/org.scala-lang.modules/scala-parser-combinators_2.11/bundles/scala-parser-combinators_2.11-1.0.4.jar:/home/sunny/.ivy2/cache/com.typesafe.akka/akka-slf4j_2.11/jars/akka-slf4j_2.11-2.4.4.jar:/home/sunny/.ivy2/cache/commons-codec/commons-codec/jars/commons-codec-1.10.jar:/home/sunny/.ivy2/cache/xerces/xercesImpl/jars/xercesImpl-2.11.0.jar:/home/sunny/.ivy2/cache/xml-apis/xml-apis/jars/xml-apis-1.4.01.jar:/home/sunny/.ivy2/cache/javax.transaction/jta/jars/jta-1.1.jar:/home/sunny/.ivy2/cache/com.google.inject/guice/jars/guice-4.0.jar:/home/sunny/.ivy2/cache/javax.inject/javax.inject/jars/javax.inject-1.jar:/home/sunny/.ivy2/cache/aopalliance/aopalliance/jars/aopalliance-1.0.jar:/home/sunny/.ivy2/cache/com.google.inject.extensions/guice-assistedinject/jars/guice-assistedinject-4.0.jar:/home/sunny/.ivy2/cache/com.typesafe.play/play-netty-server_2.11/jars/play-netty-server_2.11-2.5.3.jar:/home/sunny/.ivy2/cache/com.typesafe.netty/netty-reactive-streams-http/jars/netty-reactive-streams-http-1.0.5.jar:/home/sunny/.ivy2/cache/com.typesafe.netty/netty-reactive-streams/jars/netty-reactive-streams-1.0.5.jar:/home/sunny/.ivy2/cache/io.netty/netty-transport-native-epoll/jars/netty-transport-native-epoll-4.0.36.Final-linux-x86_64.jar:/home/sunny/.ivy2/cache/io.netty/netty-common/jars/netty-common-4.0.36.Final.jar:/home/sunny/.ivy2/cache/io.netty/netty-buffer/jars/netty-buffer-4.0.36.Final.jar:/home/sunny/.ivy2/cache/io.netty/netty-transport/jars/netty-transport-4.0.36.Final.jar:/home/sunny/.ivy2/cache/com.typesafe.play/play-logback_2.11/jars/play-logback_2.11-2.5.3.jar:/home/sunny/.ivy2/cache/ch.qos.logback/logback-core/jars/logback-core-1.1.4.jar:/home/sunny/.ivy2/cache/ch.qos.logback/logback-classic/jars/logback-classic-1.1.4.jar:/home/sunny/.ivy2/cache/com.typesafe.play/play-jdbc_2.11/jars/play-jdbc_2.11-2.5.3.jar:/home/sunny/.ivy2/cache/com.typesafe.play/play-jdbc-api_2.11/jars/play-jdbc-api_2.11-2.5.3.jar:/home/sunny/.ivy2/cache/com.jolbox/bonecp/bundles/bonecp-0.8.0.RELEASE.jar:/home/sunny/.ivy2/cache/com.zaxxer/HikariCP/bundles/HikariCP-2.4.3.jar:/home/sunny/.ivy2/cache/com.googlecode.usc/jdbcdslog/jars/jdbcdslog-1.0.6.2.jar:/home/sunny/.ivy2/cache/com.h2database/h2/jars/h2-1.4.191.jar:/home/sunny/.ivy2/cache/tyrex/tyrex/jars/tyrex-1.0.1.jar:/home/sunny/.ivy2/cache/com.typesafe.play/play-cache_2.11/jars/play-cache_2.11-2.5.3.jar:/home/sunny/.ivy2/cache/net.sf.ehcache/ehcache-core/jars/ehcache-core-2.6.11.jar:/home/sunny/.ivy2/cache/com.typesafe.play/play-ws_2.11/jars/play-ws_2.11-2.5.3.jar:/home/sunny/.ivy2/cache/com.google.guava/guava/bundles/guava-19.0.jar:/home/sunny/.ivy2/cache/org.asynchttpclient/async-http-client/jars/async-http-client-2.0.2.jar:/home/sunny/.ivy2/cache/io.netty/netty-codec-http/jars/netty-codec-http-4.0.36.Final.jar:/home/sunny/.ivy2/cache/io.netty/netty-codec/jars/netty-codec-4.0.36.Final.jar:/home/sunny/.ivy2/cache/io.netty/netty-handler/jars/netty-handler-4.0.36.Final.jar:/home/sunny/.ivy2/cache/org.asynchttpclient/netty-resolver-dns/jars/netty-resolver-dns-2.0.2.jar:/home/sunny/.ivy2/cache/org.asynchttpclient/netty-resolver/jars/netty-resolver-2.0.2.jar:/home/sunny/.ivy2/cache/org.slf4j/slf4j-api/jars/slf4j-api-1.7.21.jar:/home/sunny/.ivy2/cache/org.asynchttpclient/netty-codec-dns/jars/netty-codec-dns-2.0.2.jar:/home/sunny/.ivy2/cache/org.javassist/javassist/bundles/javassist-3.20.0-GA.jar:/home/sunny/.ivy2/cache/oauth.signpost/signpost-core/jars/signpost-core-1.2.1.2.jar:/home/sunny/.ivy2/cache/oauth.signpost/signpost-commonshttp4/jars/signpost-commonshttp4-1.2.1.2.jar:/home/sunny/.ivy2/cache/org.apache.httpcomponents/httpcore/jars/httpcore-4.0.1.jar:/home/sunny/.ivy2/cache/org.apache.httpcomponents/httpclient/jars/httpclient-4.0.1.jar:/home/sunny/.ivy2/cache/com.opencsv/opencsv/bundles/opencsv-3.3.jar:/home/sunny/.ivy2/cache/com.typesafe.scala-logging/scala-logging_2.11/jars/scala-logging_2.11-3.1.0.jar:/home/sunny/.ivy2/cache/org.springframework/spring-context/jars/spring-context-4.1.6.RELEASE.jar:/home/sunny/.ivy2/cache/org.springframework/spring-aop/jars/spring-aop-4.1.6.RELEASE.jar:/home/sunny/.ivy2/cache/org.springframework/spring-beans/jars/spring-beans-4.1.6.RELEASE.jar:/home/sunny/.ivy2/cache/org.springframework/spring-core/jars/spring-core-4.1.6.RELEASE.jar:/home/sunny/.ivy2/cache/commons-logging/commons-logging/jars/commons-logging-1.2.jar:/home/sunny/.ivy2/cache/org.springframework/spring-expression/jars/spring-expression-4.1.6.RELEASE.jar:/home/sunny/.ivy2/cache/org.springframework/spring-jdbc/jars/spring-jdbc-4.1.6.RELEASE.jar:/home/sunny/.ivy2/cache/org.springframework/spring-tx/jars/spring-tx-4.1.6.RELEASE.jar
-Scala compilation took 14.870642656 s
-Attempting to call com.sun.tools.javac.api.JavacTool@6e7ae6f1 directly...
-Java compilation took 0.713453655 s
-Java analysis took 0.012806526 s
-Java compile + analysis took 0.736007312 s
-Invalidating /home/sunny/Downloads/activator-1.3.10-minimal/bin/test-play0scala/target/scala-2.11/routes/main/controllers/ReverseRoutes.scala...
-Invalidating (transitively) by inheritance from /home/sunny/Downloads/activator-1.3.10-minimal/bin/test-play0scala/target/scala-2.11/routes/main/controllers/ReverseRoutes.scala...
-Initial set of included nodes: Set(/home/sunny/Downloads/activator-1.3.10-minimal/bin/test-play0scala/target/scala-2.11/routes/main/controllers/ReverseRoutes.scala)
-Invalidated by transitive inheritance dependency: Set(/home/sunny/Downloads/activator-1.3.10-minimal/bin/test-play0scala/target/scala-2.11/routes/main/controllers/ReverseRoutes.scala)
-The /home/sunny/Downloads/activator-1.3.10-minimal/bin/test-play0scala/target/scala-2.11/routes/main/controllers/ReverseRoutes.scala source file has the following regular definitions changed:
-	notify, count, _defaultPrefix, wait, $asInstanceOf, equals, asInstanceOf, synchronized, ReverseHomeController, $isInstanceOf, ReverseCountController, ReverseAssets, ReverseAsyncController, notifyAll, isInstanceOf, <init>, ==, clone, message, toString, !=, getClass, ne, versioned, eq, ##, finalize, index, hashCode.
-All member reference dependencies will be considered within this context.
-The following modified names cause invalidation of /home/sunny/Downloads/activator-1.3.10-minimal/bin/test-play0scala/target/scala-2.11/twirl/main/views/html/main.template.scala: Set(<init>, versioned)
-Invalidating /home/sunny/Downloads/activator-1.3.10-minimal/bin/test-play0scala/target/scala-2.11/routes/main/router/Routes.scala...
-Invalidating (transitively) by inheritance from /home/sunny/Downloads/activator-1.3.10-minimal/bin/test-play0scala/target/scala-2.11/routes/main/router/Routes.scala...
-Initial set of included nodes: Set(/home/sunny/Downloads/activator-1.3.10-minimal/bin/test-play0scala/target/scala-2.11/routes/main/router/Routes.scala)
-Invalidated by transitive inheritance dependency: Set(/home/sunny/Downloads/activator-1.3.10-minimal/bin/test-play0scala/target/scala-2.11/routes/main/router/Routes.scala)
-The /home/sunny/Downloads/activator-1.3.10-minimal/bin/test-play0scala/target/scala-2.11/routes/main/router/Routes.scala source file has the following regular definitions changed:
-	notify, badRequest, wait, controllers_CountController_count1_invoker, $asInstanceOf, routes, createInvoker, equals, prefix, controllers_Assets_versioned3_route, asInstanceOf, documentation, synchronized, $isInstanceOf, handlerFor, controllers_CountController_count1_route, notifyAll, isInstanceOf, asJava, errorHandler, <init>, controllers_Assets_versioned3_invoker, ==, clone, controllers_AsyncController_message2_route, Routes, controllers_AsyncController_message2_invoker, toString, !=, controllers_HomeController_index0_invoker, fakeValue, getClass, ne, withPrefix, call, controllers_HomeController_index0_route, eq, defaultPrefix, ##, finalize, hashCode.
-All member reference dependencies will be considered within this context.
-Invalidating /home/sunny/Downloads/activator-1.3.10-minimal/bin/test-play0scala/app/services/Counter.scala...
-Invalidating (transitively) by inheritance from /home/sunny/Downloads/activator-1.3.10-minimal/bin/test-play0scala/app/services/Counter.scala...
-Initial set of included nodes: Set(/home/sunny/Downloads/activator-1.3.10-minimal/bin/test-play0scala/app/services/Counter.scala)
-Invalidated by transitive inheritance dependency: Set(/home/sunny/Downloads/activator-1.3.10-minimal/bin/test-play0scala/app/services/Counter.scala)
-The /home/sunny/Downloads/activator-1.3.10-minimal/bin/test-play0scala/app/services/Counter.scala source file has the following regular definitions changed:
-	notify, nextCount, wait, $asInstanceOf, equals, AtomicCounter, asInstanceOf, synchronized, $isInstanceOf, atomicCounter, notifyAll, isInstanceOf, <init>, ==, clone, toString, !=, getClass, Counter, ne, eq, ##, finalize, hashCode.
-All member reference dependencies will be considered within this context.
-The following modified names cause invalidation of /home/sunny/Downloads/activator-1.3.10-minimal/bin/test-play0scala/app/Module.scala: Set(AtomicCounter, <init>, Counter)
-The following modified names cause invalidation of /home/sunny/Downloads/activator-1.3.10-minimal/bin/test-play0scala/app/controllers/CountController.scala: Set(nextCount, <init>, toString, Counter)
-Invalidating /home/sunny/Downloads/activator-1.3.10-minimal/bin/test-play0scala/target/scala-2.11/routes/main/router/RoutesPrefix.scala...
-Invalidating (transitively) by inheritance from /home/sunny/Downloads/activator-1.3.10-minimal/bin/test-play0scala/target/scala-2.11/routes/main/router/RoutesPrefix.scala...
-Initial set of included nodes: Set(/home/sunny/Downloads/activator-1.3.10-minimal/bin/test-play0scala/target/scala-2.11/routes/main/router/RoutesPrefix.scala)
-Invalidated by transitive inheritance dependency: Set(/home/sunny/Downloads/activator-1.3.10-minimal/bin/test-play0scala/target/scala-2.11/routes/main/router/RoutesPrefix.scala)
-The /home/sunny/Downloads/activator-1.3.10-minimal/bin/test-play0scala/target/scala-2.11/routes/main/router/RoutesPrefix.scala source file has the following regular definitions changed:
-	notify, byNamePrefix, wait, $asInstanceOf, equals, prefix, asInstanceOf, RoutesPrefix, synchronized, $isInstanceOf, _prefix, notifyAll, isInstanceOf, ==, clone, toString, !=, getClass, setPrefix, ne, eq, ##, finalize, hashCode.
-All member reference dependencies will be considered within this context.
-The following modified names cause invalidation of /home/sunny/Downloads/activator-1.3.10-minimal/bin/test-play0scala/target/scala-2.11/routes/main/router/Routes.scala: Set(prefix, asInstanceOf, RoutesPrefix, isInstanceOf, getClass, setPrefix)
-Invalidating /home/sunny/Downloads/activator-1.3.10-minimal/bin/test-play0scala/app/controllers/AsyncController.scala...
-Invalidating (transitively) by inheritance from /home/sunny/Downloads/activator-1.3.10-minimal/bin/test-play0scala/app/controllers/AsyncController.scala...
-Initial set of included nodes: Set(/home/sunny/Downloads/activator-1.3.10-minimal/bin/test-play0scala/app/controllers/AsyncController.scala)
-Invalidated by transitive inheritance dependency: Set(/home/sunny/Downloads/activator-1.3.10-minimal/bin/test-play0scala/app/controllers/AsyncController.scala)
-The /home/sunny/Downloads/activator-1.3.10-minimal/bin/test-play0scala/app/controllers/AsyncController.scala source file has the following implicit definitions changed:
-	request2session, request2flash, request2lang.
-All member reference dependencies will be considered within this context.
-The following member ref dependencies of /home/sunny/Downloads/activator-1.3.10-minimal/bin/test-play0scala/app/controllers/AsyncController.scala are invalidated:
-	/home/sunny/Downloads/activator-1.3.10-minimal/bin/test-play0scala/target/scala-2.11/routes/main/router/Routes.scala
-Invalidating /home/sunny/Downloads/activator-1.3.10-minimal/bin/test-play0scala/app/services/ApplicationTimer.scala...
-Invalidating (transitively) by inheritance from /home/sunny/Downloads/activator-1.3.10-minimal/bin/test-play0scala/app/services/ApplicationTimer.scala...
-Initial set of included nodes: Set(/home/sunny/Downloads/activator-1.3.10-minimal/bin/test-play0scala/app/services/ApplicationTimer.scala)
-Invalidated by transitive inheritance dependency: Set(/home/sunny/Downloads/activator-1.3.10-minimal/bin/test-play0scala/app/services/ApplicationTimer.scala)
-The /home/sunny/Downloads/activator-1.3.10-minimal/bin/test-play0scala/app/services/ApplicationTimer.scala source file has the following regular definitions changed:
-	notify, wait, $asInstanceOf, equals, asInstanceOf, synchronized, ApplicationTimer, $isInstanceOf, notifyAll, isInstanceOf, <init>, ==, clone, toString, !=, getClass, start, ne, eq, ##, finalize, hashCode.
-All member reference dependencies will be considered within this context.
-The following modified names cause invalidation of /home/sunny/Downloads/activator-1.3.10-minimal/bin/test-play0scala/app/Module.scala: Set(ApplicationTimer, <init>)
-Invalidating /home/sunny/Downloads/activator-1.3.10-minimal/bin/test-play0scala/app/controllers/TestBean2.java...
-Invalidating (transitively) by inheritance from /home/sunny/Downloads/activator-1.3.10-minimal/bin/test-play0scala/app/controllers/TestBean2.java...
-Initial set of included nodes: Set(/home/sunny/Downloads/activator-1.3.10-minimal/bin/test-play0scala/app/controllers/TestBean2.java)
-Invalidated by transitive inheritance dependency: Set(/home/sunny/Downloads/activator-1.3.10-minimal/bin/test-play0scala/app/controllers/TestBean2.java)
-The /home/sunny/Downloads/activator-1.3.10-minimal/bin/test-play0scala/app/controllers/TestBean2.java source file has the following regular definitions changed:
-	.
-All member reference dependencies will be considered within this context.
-Invalidating /home/sunny/Downloads/activator-1.3.10-minimal/bin/test-play0scala/app/Module.scala...
-Invalidating (transitively) by inheritance from /home/sunny/Downloads/activator-1.3.10-minimal/bin/test-play0scala/app/Module.scala...
-Initial set of included nodes: Set(/home/sunny/Downloads/activator-1.3.10-minimal/bin/test-play0scala/app/Module.scala)
-Invalidated by transitive inheritance dependency: Set(/home/sunny/Downloads/activator-1.3.10-minimal/bin/test-play0scala/app/Module.scala)
-The /home/sunny/Downloads/activator-1.3.10-minimal/bin/test-play0scala/app/Module.scala source file has the following regular definitions changed:
-	notify, bindListener, wait, $asInstanceOf, requestStaticInjection, requireBinding, binder, equals, getProvider, asInstanceOf, bindScope, synchronized, bind, $isInstanceOf, configure, requestInjection, notifyAll, addError, isInstanceOf, bindInterceptor, <init>, getMembersInjector, ==, clone, bindConstant, toString, !=, getClass, install, currentStage, ne, eq, Module, convertToTypes, ##, finalize, hashCode.
-All member reference dependencies will be considered within this context.
-Invalidating /home/sunny/Downloads/activator-1.3.10-minimal/bin/test-play0scala/app/controllers/TestBean.java...
-Invalidating (transitively) by inheritance from /home/sunny/Downloads/activator-1.3.10-minimal/bin/test-play0scala/app/controllers/TestBean.java...
-Initial set of included nodes: Set(/home/sunny/Downloads/activator-1.3.10-minimal/bin/test-play0scala/app/controllers/TestBean.java)
-Invalidated by transitive inheritance dependency: Set(/home/sunny/Downloads/activator-1.3.10-minimal/bin/test-play0scala/app/controllers/TestBean.java)
-The /home/sunny/Downloads/activator-1.3.10-minimal/bin/test-play0scala/app/controllers/TestBean.java source file has the following regular definitions changed:
-	.
-All member reference dependencies will be considered within this context.
-Invalidating /home/sunny/Downloads/activator-1.3.10-minimal/bin/test-play0scala/target/scala-2.11/routes/main/controllers/routes.java...
-Invalidating (transitively) by inheritance from /home/sunny/Downloads/activator-1.3.10-minimal/bin/test-play0scala/target/scala-2.11/routes/main/controllers/routes.java...
-Initial set of included nodes: Set(/home/sunny/Downloads/activator-1.3.10-minimal/bin/test-play0scala/target/scala-2.11/routes/main/controllers/routes.java)
-Invalidated by transitive inheritance dependency: Set(/home/sunny/Downloads/activator-1.3.10-minimal/bin/test-play0scala/target/scala-2.11/routes/main/controllers/routes.java)
-The /home/sunny/Downloads/activator-1.3.10-minimal/bin/test-play0scala/target/scala-2.11/routes/main/controllers/routes.java source file has the following regular definitions changed:
-	.
-All member reference dependencies will be considered within this context.
-None of the modified names appears in /home/sunny/Downloads/activator-1.3.10-minimal/bin/test-play0scala/target/scala-2.11/twirl/main/views/html/main.template.scala. This dependency is not being considered for invalidation.
-Invalidating /home/sunny/Downloads/activator-1.3.10-minimal/bin/test-play0scala/target/scala-2.11/twirl/main/views/html/main.template.scala...
-Invalidating (transitively) by inheritance from /home/sunny/Downloads/activator-1.3.10-minimal/bin/test-play0scala/target/scala-2.11/twirl/main/views/html/main.template.scala...
-Initial set of included nodes: Set(/home/sunny/Downloads/activator-1.3.10-minimal/bin/test-play0scala/target/scala-2.11/twirl/main/views/html/main.template.scala)
-Invalidated by transitive inheritance dependency: Set(/home/sunny/Downloads/activator-1.3.10-minimal/bin/test-play0scala/target/scala-2.11/twirl/main/views/html/main.template.scala)
-The /home/sunny/Downloads/activator-1.3.10-minimal/bin/test-play0scala/target/scala-2.11/twirl/main/views/html/main.template.scala source file has the following regular definitions changed:
-	notify, format, wait, $asInstanceOf, productArity, equals, asInstanceOf, f, synchronized, _display_, $isInstanceOf, ref, canEqual, main, productPrefix, notifyAll, readResolve, isInstanceOf, <init>, apply, ==, clone, main_Scope0, copy, toString, !=, getClass, copy$default$1, render, ne, eq, productIterator, ##, finalize, productElement, hashCode.
-All member reference dependencies will be considered within this context.
-The following modified names cause invalidation of /home/sunny/Downloads/activator-1.3.10-minimal/bin/test-play0scala/target/scala-2.11/twirl/main/views/html/index.template.scala: Set(format, _display_, main, <init>, apply)
-Invalidating /home/sunny/Downloads/activator-1.3.10-minimal/bin/test-play0scala/target/scala-2.11/twirl/main/views/html/index.template.scala...
-Invalidating (transitively) by inheritance from /home/sunny/Downloads/activator-1.3.10-minimal/bin/test-play0scala/target/scala-2.11/twirl/main/views/html/index.template.scala...
-Initial set of included nodes: Set(/home/sunny/Downloads/activator-1.3.10-minimal/bin/test-play0scala/target/scala-2.11/twirl/main/views/html/index.template.scala)
-Invalidated by transitive inheritance dependency: Set(/home/sunny/Downloads/activator-1.3.10-minimal/bin/test-play0scala/target/scala-2.11/twirl/main/views/html/index.template.scala)
-The /home/sunny/Downloads/activator-1.3.10-minimal/bin/test-play0scala/target/scala-2.11/twirl/main/views/html/index.template.scala source file has the following regular definitions changed:
-	notify, format, wait, $asInstanceOf, productArity, equals, asInstanceOf, f, synchronized, _display_, $isInstanceOf, ref, canEqual, index_Scope0, productPrefix, notifyAll, readResolve, isInstanceOf, <init>, apply, ==, clone, copy, toString, !=, getClass, copy$default$1, render, ne, eq, productIterator, ##, finalize, index, productElement, hashCode.
-All member reference dependencies will be considered within this context.
-The following modified names cause invalidation of /home/sunny/Downloads/activator-1.3.10-minimal/bin/test-play0scala/app/controllers/HomeController.scala: Set(<init>, apply, index)
-Invalidating /home/sunny/Downloads/activator-1.3.10-minimal/bin/test-play0scala/app/Filters.scala...
-Invalidating (transitively) by inheritance from /home/sunny/Downloads/activator-1.3.10-minimal/bin/test-play0scala/app/Filters.scala...
-Initial set of included nodes: Set(/home/sunny/Downloads/activator-1.3.10-minimal/bin/test-play0scala/app/Filters.scala)
-Invalidated by transitive inheritance dependency: Set(/home/sunny/Downloads/activator-1.3.10-minimal/bin/test-play0scala/app/Filters.scala)
-The /home/sunny/Downloads/activator-1.3.10-minimal/bin/test-play0scala/app/Filters.scala source file has the following regular definitions changed:
-	notify, wait, $asInstanceOf, equals, asInstanceOf, synchronized, $isInstanceOf, notifyAll, isInstanceOf, asJava, <init>, ==, clone, filters, toString, !=, getClass, Filters, ne, eq, ##, finalize, hashCode.
-All member reference dependencies will be considered within this context.
-Invalidating /home/sunny/Downloads/activator-1.3.10-minimal/bin/test-play0scala/app/filters/ExampleFilter.scala...
-Invalidating (transitively) by inheritance from /home/sunny/Downloads/activator-1.3.10-minimal/bin/test-play0scala/app/filters/ExampleFilter.scala...
-Initial set of included nodes: Set(/home/sunny/Downloads/activator-1.3.10-minimal/bin/test-play0scala/app/filters/ExampleFilter.scala)
-Invalidated by transitive inheritance dependency: Set(/home/sunny/Downloads/activator-1.3.10-minimal/bin/test-play0scala/app/filters/ExampleFilter.scala)
-The /home/sunny/Downloads/activator-1.3.10-minimal/bin/test-play0scala/app/filters/ExampleFilter.scala source file has the following implicit definitions changed:
-	mat.
-All member reference dependencies will be considered within this context.
-The following member ref dependencies of /home/sunny/Downloads/activator-1.3.10-minimal/bin/test-play0scala/app/filters/ExampleFilter.scala are invalidated:
-	/home/sunny/Downloads/activator-1.3.10-minimal/bin/test-play0scala/app/Filters.scala
-Invalidating /home/sunny/Downloads/activator-1.3.10-minimal/bin/test-play0scala/app/controllers/CountController.scala...
-Invalidating (transitively) by inheritance from /home/sunny/Downloads/activator-1.3.10-minimal/bin/test-play0scala/app/controllers/CountController.scala...
-Initial set of included nodes: Set(/home/sunny/Downloads/activator-1.3.10-minimal/bin/test-play0scala/app/controllers/CountController.scala)
-Invalidated by transitive inheritance dependency: Set(/home/sunny/Downloads/activator-1.3.10-minimal/bin/test-play0scala/app/controllers/CountController.scala)
-The /home/sunny/Downloads/activator-1.3.10-minimal/bin/test-play0scala/app/controllers/CountController.scala source file has the following implicit definitions changed:
-	request2session, request2flash, request2lang.
-All member reference dependencies will be considered within this context.
-The following member ref dependencies of /home/sunny/Downloads/activator-1.3.10-minimal/bin/test-play0scala/app/controllers/CountController.scala are invalidated:
-	/home/sunny/Downloads/activator-1.3.10-minimal/bin/test-play0scala/target/scala-2.11/routes/main/router/Routes.scala
-Invalidating /home/sunny/Downloads/activator-1.3.10-minimal/bin/test-play0scala/app/controllers/HomeController.scala...
-Invalidating (transitively) by inheritance from /home/sunny/Downloads/activator-1.3.10-minimal/bin/test-play0scala/app/controllers/HomeController.scala...
-Initial set of included nodes: Set(/home/sunny/Downloads/activator-1.3.10-minimal/bin/test-play0scala/app/controllers/HomeController.scala)
-Invalidated by transitive inheritance dependency: Set(/home/sunny/Downloads/activator-1.3.10-minimal/bin/test-play0scala/app/controllers/HomeController.scala)
-The /home/sunny/Downloads/activator-1.3.10-minimal/bin/test-play0scala/app/controllers/HomeController.scala source file has the following implicit definitions changed:
-	request2session, request2flash, request2lang.
-All member reference dependencies will be considered within this context.
-The following member ref dependencies of /home/sunny/Downloads/activator-1.3.10-minimal/bin/test-play0scala/app/controllers/HomeController.scala are invalidated:
-	/home/sunny/Downloads/activator-1.3.10-minimal/bin/test-play0scala/target/scala-2.11/routes/main/router/Routes.scala
-Invalidating /home/sunny/Downloads/activator-1.3.10-minimal/bin/test-play0scala/target/scala-2.11/routes/main/controllers/javascript/JavaScriptReverseRoutes.scala...
-Invalidating (transitively) by inheritance from /home/sunny/Downloads/activator-1.3.10-minimal/bin/test-play0scala/target/scala-2.11/routes/main/controllers/javascript/JavaScriptReverseRoutes.scala...
-Initial set of included nodes: Set(/home/sunny/Downloads/activator-1.3.10-minimal/bin/test-play0scala/target/scala-2.11/routes/main/controllers/javascript/JavaScriptReverseRoutes.scala)
-Invalidated by transitive inheritance dependency: Set(/home/sunny/Downloads/activator-1.3.10-minimal/bin/test-play0scala/target/scala-2.11/routes/main/controllers/javascript/JavaScriptReverseRoutes.scala)
-The /home/sunny/Downloads/activator-1.3.10-minimal/bin/test-play0scala/target/scala-2.11/routes/main/controllers/javascript/JavaScriptReverseRoutes.scala source file has the following regular definitions changed:
-	notify, count, _defaultPrefix, wait, $asInstanceOf, equals, asInstanceOf, synchronized, ReverseHomeController, $isInstanceOf, ReverseCountController, ReverseAssets, ReverseAsyncController, notifyAll, isInstanceOf, <init>, ==, clone, message, toString, !=, getClass, ne, versioned, eq, ##, finalize, index, hashCode.
-All member reference dependencies will be considered within this context.
-New invalidations:
-	Set()
-Initial set of included nodes: Set()
-Previously invalidated, but (transitively) depend on new invalidations:
-	Set()
-All newly invalidated sources after taking into account (previously) recompiled sources:Set()
-Copy resource mappings: 
-	(/home/sunny/Downloads/activator-1.3.10-minimal/bin/test-play0scala/conf/application.conf,/home/sunny/Downloads/activator-1.3.10-minimal/bin/test-play0scala/target/scala-2.11/classes/application.conf)
-	(/home/sunny/Downloads/activator-1.3.10-minimal/bin/test-play0scala/conf/logback.xml,/home/sunny/Downloads/activator-1.3.10-minimal/bin/test-play0scala/target/scala-2.11/classes/logback.xml)
-	(/home/sunny/Downloads/activator-1.3.10-minimal/bin/test-play0scala/conf/routes,/home/sunny/Downloads/activator-1.3.10-minimal/bin/test-play0scala/target/scala-2.11/classes/routes)
-Total time: 18 s, completed 20 Jun, 2016 5:02:13 PM
+Running task... Cancel: sbt.server.ServerTaskCancellation@45f10d70, check cycles: false
+Total time: 0 s, completed 20 Jun, 2016 5:13:57 PM
 > server-post-command-cleanup
 > server-handle-next-server-request
 Done executing sbt server engine, result Right(Exit(0))
@@ -3748,4 +3552,4 @@ Waiting for socket thread
 Waiting for request processor thread
 Waiting for command engine result
 Returning control to sbt launcher with result Exit(0)
-Closing the 3721@sunny-Lenovo-E40-80 logs at Mon Jun 20 17:03:57 IST 2016, goodbye.
+Closing the 4937@sunny-Lenovo-E40-80 logs at Mon Jun 20 17:16:18 IST 2016, goodbye.
